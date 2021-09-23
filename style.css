@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:wght@100&family=Rambla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Playfair+Display:ital@1&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color:#0a0a0a !important;
+    background-color:#D9D7D8 !important ;
+    font-family: 'Rambla', sans-serif ;
+}
+ h5{
+    font-family: 'Playfair+Display', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px #283655;
+}
+li{
+    list-style-type: none;
+}
+/* ***********header*************** */
+.navbar{
+    background-color: #fafafa;
+    opacity: 0.9;
+    height: 42px;
+    transition: 0.7s;
+    
+}
+.navbar-nav{
+    width: 80% !important;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+header{
+    text-align: center;
+    height: 60vh;
+    background: url(media/hanoi.webp) no-repeat fixed 50% 50%;
+    background-size: cover;
+    opacity: 0.9;
+
+}
+h1{
+    padding: 90px 0 10px 0;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 4.3em;
+    text-transform: uppercase;
+}
+#line{
+    height: 1px;
+    background-color: #D9D7D8;
+    width: 25px;
+    margin:  0 auto;
+}
+h2{
+    padding: 20px 0 50px 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: 'Cinzel+Decorative',sans-serif;
+}
+.presentation{
+    height: 240px;
+    margin-top: 20px;
+
+
+}
+.typed{
+    color: #492324;
+    font-weight: bolder;
+}
+.infos{
+    border: 1px solid #b3aca7 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.photo{
+    border: 0.5px solid #4D4D59 ;
+    position: relative;
+    
+    border-radius: 5px;
+    
+
+}
+.photo img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    max-width: 120px;
+    max-height: 120px ;
+    border-radius: 3px;
+    box-shadow: 0 0 20px #4D4D59;
+    /* justify-content: space-around; */
+    
+}
+header .button{
+    margin-top: 45px;
+    border-radius: 3px;
+
+   
+}
+header .button a{
+    padding: 20px 80px;
+    border: 1px solid #b3aca7;
+    width: 300px;
+    color: #111;
+}
+header .button:hover a{
+    background:#D9D7D8 ;
+    color: #4D4D59;
+    border-radius: 3px;
+    transition: all 0.3 ease-in-out;
+    text-decoration: none; 
+}
+
+/* ***************LANGAGES********************** */
+#langages{
+    padding: 80px 80px 80px 50px;
+    margin:20px 0 0 6%;
+    height: 620px;
+    width: 47%;
+    max-width: 640px;
+   
+    background: linear-gradient(150deg,rgba(166,52,27,0.75) 10%, rgba(166,52,27,0.57) 20%, rgba(166,52,27,0.52) 50%, transparent 95%);
+    clip-path: polygon(5% 13%, 100% 0%, 83% 97%, 0% 100%);
+    font-family: 'Courgette&display', sans-serif;
+}
+#langages .bar{
+    padding: 10px 0 4px 0;
+    letter-spacing: 0.1em;
+}
+/* ********************FORMATIONS**************************** */
+#formation{
+    position : relative;
+    top: -200px;
+    float: right;
+    margin-right: 1%;
+    padding: 80px 80px 80px 50px;
+    width: 45%;
+    max-width: 660px;
+    background: linear-gradient(140deg,#d1bf91 0%, rgba(209,191,145,0.27) 80%, rgba(209,191,145,0.33) 40%);
+    clip-path: polygon(0 0, 99% 12%, 98% 92%, 0 100%);
+}
+#autodidacte{
+    padding-top: 20px;
+
+}
+#fcc{
+    padding: 50px 0 0 5%;
+}
+#ocr{
+    padding: 50px 0 0 10%;  
+}
+#formation h4{
+    font-weight: bold;
+    letter-spacing: 0.08cm;
+    padding-bottom: 10px;
+    color: #60371E;
+    text-shadow: -1px -1px 1px #A6341B;
+}
+#formation h3{
+    color:#A6341B;
+    font-family: 'Courgette&display', sans-serif;
+}
+.counter{
+    display: flex;
+    text-align: center;
+}
+.data{
+    border: 1px solid #A6341B ;
+    width: 150px;
+    margin: 0 4%;
+    border-radius: 5%;
+}
+.counter-value{
+    font-size: 2em;
+
+}
+.data-span{
+    font-size: 1.0em;
+}
+
+/* ************************* Parcours  *********************** */
+#parcour{
+    max-width: 800px;
+    margin: 640px auto 100px auto;
+    padding: 40px 30px 100px 30px;
+    background: url(./media/soap.webp) no-repeat fixed 50% 50%;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 1px -1px 8px #283655;
+}
+#parcour h5{
+    font-size: 2.5em;
+    padding-bottom: 30px;
+}
+#parcour h4{
+    font-size: 1.6em;
+    color:#ff4e50
+}
+#parcour h6{
+    font-style: italic;
+    color: #B560FC;
+    
+}
+#parcour p{
+    line-height: 1.9em;
+}
+.timeline{
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, #f9d423, #ff4e50);
+    border-image-slice:1 ;
+    margin: 0;
+    padding: 40px;
+    position: relative;
+}
+.timeline:nth-child(1)::after {
+    content: '▲'; 
+    color: #ff4e50;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    box-sizing: content-box !important;
+}
+.timeline:nth-child(1) {
+    border-bottom: 3px solid;
+    border-top: none;
+    width: 80%;
+}
+.timeline:nth-child(2) {
+    border-top: none;
+}
+.timeline:nth-child(odd) {/*pour les elements impaires */ 
+    border-right: 3px solid;
+    padding-left: 0;
+
+}
+.timeline:nth-child(even) {/* pour les elements paires*/
+    border-left: 3px solid;
+    padding-right: 0;
+}
